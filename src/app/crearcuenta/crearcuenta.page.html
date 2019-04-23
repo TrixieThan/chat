@@ -1,0 +1,40 @@
+
+<ion-content>
+  <ion-grid class="ion-padding">
+    <ion-row class="ion-align-items-center ion-justify-content-center">
+      <ion-col size="12">
+        <ion-row class="cajaform">
+          <ion-col size="12">
+            <div>
+              <h1 class="titulo">Crear Cuenta</h1>
+              <br>
+              <form>
+                <div class="cajainput">
+                  <ion-input type="text" placeholder="Nombre" required></ion-input>
+                </div>
+                <br>
+                <div class="cajainput">
+                  <ion-input type="password" placeholder="Correo" required></ion-input>
+                </div>
+                <br>
+                <div class="cajainput">
+                  <ion-input type="password" placeholder="Contraseña" required></ion-input>
+                </div>
+                <br>
+                <div class="cajainput">
+                  <ion-input type="password" placeholder="Confirme contraseña" required></ion-input>
+                </div>
+                <br>
+                <ion-button expand="block" (click)="loginForm()">Crear</ion-button>
+              </form>
+            </div>
+          </ion-col>
+          <br>
+          <ion-col class="a" size="12" text-center>
+            <a>Ya tengo una cuenta!</a>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

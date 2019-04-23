@@ -1,0 +1,25 @@
+
+<ion-content>
+  <ion-grid class="ion-padding">
+    <ion-row class="ion-align-items-center ion-justify-content-center">
+      <ion-col size="12">
+        <ion-img src="../../assets/img/lock.png" alt="" class="lockimg"></ion-img>
+        <h1 class="titulo">Recuperar cuenta</h1>
+        <p text-center class="dato">Introduce tu correo para poder enviar un mensaje de verificación.</p>
+        <ion-row>
+          <ion-col size="12">
+            <div>
+              <form>
+                <div class="cajainput">
+                  <ion-input type="text" placeholder="Correo" required></ion-input>
+                </div>
+                <br>
+                <ion-button expand="block" (click)="loginForm()">Enviar</ion-button>
+              </form>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,33 @@
+ion-grid {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../assets/gif/fondo-login.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ion-row {
+  height: 100%;
+  width: 100%;
+}
+
+.cajaform {
+  background: rgba(0, 0, 0, 0.7);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+
+.titulo {
+  text-align: center;
+  color: #4ec4b3;
+}
+
+.cajainput {
+  background-color: transparent !important;
+  color: rgb(255, 255, 255);
+  padding-left: 5px;
+  padding-right: 5px;
+}
